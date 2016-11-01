@@ -1,0 +1,11 @@
+
+<h2><%= @task.name %></h2>
+<p>
+<ul>
+<li><%= @task.description %></li>
+<li class=completed>Status: <%= @task.completed_message %> </li>
+ <li class=line>-------------</li>
+<li class=line>-------------</li>
+</ul>
+<%= link_to 'All Tasks', tasks_path %>
+</p>
